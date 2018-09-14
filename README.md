@@ -85,7 +85,7 @@ npm start
 
 * **Method:**
 
-    `GET`
+    `POST`
   
 *  **URL Params**
 

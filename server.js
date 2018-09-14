@@ -27,7 +27,7 @@ server.route({
             response.code(200);
         }).catch((err) => {
             console.log('Block# ' + blockHeight + ' not found. Error: ' + err);
-            response = h.response({"error": "Block# " + blockHeight + " not found"});
+            response = h.response({"Error": "Block# " + blockHeight + " not found"});
             response.code(404);
         });
         response.header('Content-Type', 'application/json; charset=utf-8');
